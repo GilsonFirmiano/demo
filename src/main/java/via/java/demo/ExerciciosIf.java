@@ -1,5 +1,6 @@
 package via.java.demo;
 
+
 public class ExerciciosIf {
 
 
@@ -21,7 +22,7 @@ public class ExerciciosIf {
 
 
     private static void exercicioDois(int valor) {
-        if (valor >=10) {
+        if (valor >= 10) {
             if (valor <= 100) {
                 System.out.println("exercicioDois - Valor entre 10 e 100");
             }
@@ -29,30 +30,24 @@ public class ExerciciosIf {
     }
 
     private static void exercicioTres(int valor) {
-        if (valor >=10 && valor <= 100) {
-                System.out.println("exercicioTres - Valor entre 10 e 100");
+        if (valor >= 10 && valor <= 100) {
+            System.out.println("exercicioTres - Valor entre 10 e 100");
         }
     }
 
 }
 
-/*
-
-1. Receba um valor inteiro e verifique se o valor for menor ou igual a 100.
-
+    /*
  Caso seja imprima no terminal que o valor é menor ou igual a 100
 
 2. Receba um valor inteiro e verifique se o valor está entre 10 e 100.
-
-Caso seja imprima no terminal que o valor está entre 10 e 100. (Use if encadeado)
-
+Caso seja imprima no terminal que o valor está entre 10 e 100.
+(Use if encadeado)
 
 3. Receba um valor inteiro e verifique se o valor está entre 10 e 100.
+Caso seja imprima no terminal que o valor está entre 10 e 100.
+(Use uma condição concatenada)
 
-Caso seja imprima no terminal que o valor está entre 10 e 100. (Use uma condição concatenada)
 
 */
-
-
-
 
